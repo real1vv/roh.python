@@ -1,2 +1,25 @@
 # roh.python
 이 코드는 노무현을 Python으로 표현한 예술입니다.
+d=[]
+for y in range(19):
+    d.append([])
+    for x in range(36):
+        if x>14 and x<18 and y==0 or x==9 and y==1 or x==15 and y==4 or x==18 and y==4 or x==11 and y==6 or x==14 and y>5 and y<11 or x==19 and y==6 or x>8 and x<11 and y==7 or x==12 and y==7 or x==16 and y==7 or x>9 and x<12 and y==8 or x==20 and y==8 or x==13 and y==9 or x==15 and y==9 or x==10 and y==10 or x==14 and y==10 or x==31 and y==10 or x>13 and x<16 and y==12 or x==12 and y==14 or x==14 and y>15 and y<18 or x==16 and y==17:
+            d[y].append(2)
+        elif x==11 and y==5 or x==19 and y==7 or x==15 and y==10 or x==13 and y==15:
+            d[y].append(1)
+        elif x>13 and x<16 and y==3 or x==17 and y==3 or x==14 and y==5 or x==16 and y>4 and y<7 or x==18 and y==5 or x==12 and y==6 or x==21 and y==6 or x==13 and y==7 or x==16 and y==8 or x==16 and y==11 or x==14 and y==13:
+            d[y].append(4)
+        elif x==16 and y==3 or x==16 and y==9 or x==1 and y==12 or x==16 and y==14:
+            d[y].append(9)
+        elif x==12 and y==3 or x==18 and y==3 or x==19 and y==4 or x==9 and y==6 or x==12 and y==8 or x==21 and y==8 or x==26 and y==9 or x==11 and y==10 or x==17 and y==10 or x==30 and y==10 or x==17 and y==13 or x==16 and y==15:
+            d[y].append(0)
+        elif x==13 and y==3 or x==17 and y==5 or x==18 and y==6 or x==20 and y==6 or x==21 and y==7 or x==13 and y==8 or x==15 and y==8 or x==13 and y==10 or x==16 and y==10 or x==4 and y==11 or x==15 and y==11 or x==17 and y==11 or x==35 and y==11 or x==0 and y==13:
+            d[y].append(5)
+        elif x>9 and x<23 and y==1 or x>7 and x<25 and y==2 or x>6 and x<26 and y==3 or x>6 and x<10 and y==4 or x>19 and x<26 and y==4 or x>6 and x<10 and y==5 or x>11 and x<14 and y==5 or x>18 and x<26 and y==5 or x==8 and y==6 or x==13 and y==6 or x==17 and y==6 or x>21 and x<26 and y==6 or x>16 and x<19 and y==7 or x>21 and x<25 and y==7 or x>16 and x<20 and y==8 or x>21 and x<25 and y==8 or x>16 and x<26 and y==9 or x==12 and y==10 or x>17 and x<30 and y==10 or x>4 and x<13 and y==11 or x>20 and x<35 and y==11 or x>1 and x<13 and y==12 or x>19 and x<=35 and y==12 or x>0 and x<13 and y==13 or x>14 and x<17 and y==13 or x>18 and x<=35 and y==13 or x>=0 and x<12 and y==14 or x>13 and x<16 and y==14 or x>17 and x<=35 and y==14 or x>=0 and x<13 and y==15 or x>13 and x<16 and y==15 or x>16 and x<=35 and y==15 or x>=0 and x<13 and y==16 or x>14 and x<=35 and y==16 or x>=0 and x<14 and y==17 or x>16 and x<=35 and y==17 or x>=0 and x<14 and y==18 or x>15 and x<=35 and y==18:
+            d[y].append(8)
+        else:
+            d[y].append(7)
+for row in d:
+    print(*(row),sep='')
+input("rmh")
