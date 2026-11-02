@@ -1,2 +1,3 @@
 # roh.python
+This code is a piece of art that expresses "roh"—a concept rooted in traditional Korean culture—using Python. When executed, it generates "roh’s face"—one of the manifestations of "roh"—composed entirely of numbers. This numerical representation offers a direct glimpse into the essence of "roh." In this Python-based interpretation, the palette is limited to black and white, and the forms are constructed solely from digits. This reflects a pessimistic view of life, suggesting that people are increasingly losing their individuality and falling into a rigid, standardized existence. At the same time, the way these numbers cluster together to form shapes reveals the spirit of unity—a hallmark of the Korean people—that persists even as color fades away.
 
