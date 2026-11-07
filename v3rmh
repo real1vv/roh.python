@@ -1,10 +1,6 @@
 import sys,time,os
 os.system("title ROH")
 d=[]
-import sys
-import time
-
-# 숫자 -> (R, G, B)
 COLORS = {
     0: (12, 104, 7),      # 찐초록
     1: (60, 160, 60),     # 초록
@@ -15,15 +11,6 @@ COLORS = {
     8: (60, 160, 60),     # 초록
     9: (240, 200, 60),    # 노랑
 }
-RESET = '\033[0m'
-
-for row in d:
-    for c in row:
-        r, g, b = COLORS.get(c, (0, 0, 0))
-        sys.stdout.write(f'\033[48;2;{r};{g};{b}m  {RESET}')
-        sys.stdout.flush()
-        time.sleep(0.01)
-    sys.stdout.write('\n')
 RESET = '\033[0m'
 for y in range(19):
     d.append([])
